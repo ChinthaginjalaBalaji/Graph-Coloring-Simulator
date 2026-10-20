@@ -1,0 +1,22 @@
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_disconnected_vertex (test_coloring.GraphColoringTests.test_disconnected_vertex) ... ok
+test_duplicate_vertices (test_coloring.GraphColoringTests.test_duplicate_vertices) ... ok
+test_empty_vertices (test_coloring.GraphColoringTests.test_empty_vertices) ... ok
+test_invalid_edge_format (test_coloring.GraphColoringTests.test_invalid_edge_format) ... ok
+test_invalid_endpoint (test_coloring.GraphColoringTests.test_invalid_endpoint) ... ok
+test_path_graph (test_coloring.GraphColoringTests.test_path_graph) ... ok
+test_triangle_uses_three_colors (test_coloring.GraphColoringTests.test_triangle_uses_three_colors) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
